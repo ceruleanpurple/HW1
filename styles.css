@@ -8,11 +8,7 @@ h1  {
 }
 
 h2 {
-
-}
-
-h3 {
-
+  font-size: 1em;
 }
 
 ul {
@@ -23,10 +19,13 @@ li.required {
   color: red;
 }
 
-/*li {
-    text-align: left;
-}*/
+/*This title and nav CSS doesn't work, not sure why!*/
+title {
+  font-size: 2em;
+  font-weight: bold;
+  color: purple;
+}
 
-/*body.custombody {
-  background-color: gray;
-}*/
+ul.nav {
+  border-color: black;
+}
