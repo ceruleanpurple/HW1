@@ -3,7 +3,8 @@
 }
 
 h1  {
-
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 h2 {
@@ -15,9 +16,17 @@ h3 {
 }
 
 ul {
-
+  list-style: circle;
 }
 
-li {
+li.required {
+  color: red;
+}
+
+/*li {
     text-align: left;
-}
+}*/
+
+/*body.custombody {
+  background-color: gray;
+}*/
